@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Atlas Price Radar",
+  "version": "0.1.0",
+  "description": "Monitor de preços e ofertas para produtos desejados.",
+  "action": {
+    "default_popup": "src/popup/popup.html"
+  },
+  "background": {
+    "service_worker": "dist/background/background.js"
+  }
+}
