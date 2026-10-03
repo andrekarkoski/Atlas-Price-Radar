@@ -1,0 +1,122 @@
+body {
+  width: 380px;
+  margin: 0;
+  padding: 16px;
+  font-family: Arial, sans-serif;
+  background: #f8fafc;
+  color: #1e293b;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.offer-card {
+  margin-bottom: 12px;
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: white;
+}
+
+.offer-title {
+  margin: 6px 0;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.offer-price {
+  margin: 8px 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.offer-target {
+  margin: 4px 0;
+  font-size: 13px;
+}
+
+.offer-below-target {
+  margin: 8px 0;
+  padding: 6px 8px;
+  border-radius: 6px;
+  font-weight: bold;
+  background: #dcfce7;
+  color: #166534;
+}
+
+.offer-above-target {
+  margin: 8px 0;
+  padding: 6px 8px;
+  border-radius: 6px;
+  font-weight: bold;
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.offer-below-target + .offer-card small {
+  color: #166534;
+}
+
+.offer-card small {
+  display: block;
+  margin-top: 8px;
+  color: #64748b;
+}
+
+.offer-card a {
+  display: inline-block;
+  margin-top: 8px;
+  text-decoration: none;
+}
+
+.product-card {
+  margin-bottom: 10px;
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: white;
+}
+
+.product-target {
+  margin: 6px 0;
+  font-size: 13px;
+}
+
+.remove-product {
+  margin-top: 4px;
+}

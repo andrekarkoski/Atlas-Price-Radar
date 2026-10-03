@@ -16,8 +16,11 @@ if (priceText?.[1]) {
 
   chrome.runtime.sendMessage({
     type: "PRICE_FOUND",
+    store: "magalu",
+    title: document.title,
     price: numericPrice,
     rawPrice,
+    url: window.location.href,
   });
 } else {
   console.log("Atlas Price Radar — preço não encontrado.");
